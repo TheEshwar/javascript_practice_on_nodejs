@@ -113,16 +113,19 @@
 // Program 9
 // Convert first letter of each word of the string in upper case.
 
-function capitaliseFirstLetter(str){
-    let result = str.split(' ').map(s => {
-        return s.charAt(0).toUpperCase() + s.substring(1);
-    });
-    return result.join(" ")
-}
-let str = "My name is Eshwar";
-console.log("after capitalised first letter :- ", capitaliseFirstLetter(str));
+// function capitaliseFirstLetter(str){
+//     let result = str.split(' ').map(s => {
+//         return s.charAt(0).toUpperCase() + s.substring(1);
+//     });
+//     return result.join(" ")
+// }
+// let str = "My name is Eshwar";
+// console.log("after capitalised first letter :- ", capitaliseFirstLetter(str));
 
+// *********************************************************
 
+// Program 10
+// 
 
 
 
